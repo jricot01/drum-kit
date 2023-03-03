@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head>
+  <body
+    style="background-image: url('background.jpg')"
+    class="bg-no-repeat bg-cover bg-fixed bg-center"
+  >
+    <div class="flex min-h-screen items-center justify-center">
+      <div
+        data-key="65"
+        id="key"
+        class="text-center text-white text-4xl border-black border-4 rounded-lg py-2 px-9 bg-black/40 m-4 delay-100"
+      >
+        <kbd class="block">A</kbd>
+        <span class="block text-sm text-yellow uppercase tracking-widest"
+          >clap</span
+        >
+      </div>
+      <div
+        data-key="83"
+        id="key"
+        class="text-center text-white text-4xl border-black border-4 rounded-lg py-2 px-9 bg-black/40 m-4 delay-100"
+      >
+        <kbd class="block">S</kbd>
+        <span class="block text-sm text-yellow uppercase tracking-widest"
+          >hithat</span
+        >
+      </div>
+      <div
+        data-key="68"
+        id="key"
+        class="key text-center text-white text-4xl border-black border-4 rounded-lg py-2 px-9 bg-black/40 m-4 delay-100"
+      >
+        <kbd class="block">D</kbd>
+        <span class="block text-sm text-yellow uppercase tracking-widest"
+          >kick</span
+        >
+      </div>
+      <div
+        data-key="70"
+        id="key"
+        class="key text-center text-white text-4xl border-black border-4 rounded-lg py-2 px-9 bg-black/40 m-4 delay-100"
+      >
+        <kbd class="block">F</kbd>
+        <span class="block text-sm text-yellow uppercase tracking-widest"
+          >openhat</span
+        >
+      </div>
+      <div
+        data-key="71"
+        id="key"
+        class="key text-center text-white text-4xl border-black border-4 rounded-lg py-2 px-9 bg-black/40 m-4 delay-100"
+      >
+        <kbd class="block">G</kbd>
+        <span class="block text-sm text-yellow uppercase tracking-widest"
+          >boom</span
+        >
+      </div>
+      <div
+        data-key="72"
+        id="key"
+        class="key text-center text-white text-4xl border-black border-4 rounded-lg py-2 px-9 bg-black/40 m-4 delay-100"
+      >
+        <kbd class="block">H</kbd>
+        <span class="block text-sm text-yellow uppercase tracking-widest"
+          >ride</span
+        >
+      </div>
+      <div
+        data-key="74"
+        id="key"
+        class="key text-center text-white text-4xl border-black border-4 rounded-lg py-2 px-9 bg-black/40 m-4 delay-100"
+      >
+        <kbd class="block">J</kbd>
+        <span class="block text-sm text-yellow uppercase tracking-widest"
+          >snare</span
+        >
+      </div>
+      <div
+        data-key="75"
+        id="key"
+        class="key text-center text-white text-4xl border-black border-4 rounded-lg py-2 px-9 bg-black/40 m-4 delay-100"
+      >
+        <kbd class="block">K</kbd>
+        <span class="block text-sm text-yellow uppercase tracking-widest"
+          >tom</span
+        >
+      </div>
+      <div
+        data-key="76"
+        id="key"
+        class="key text-center text-white text-4xl border-black border-4 rounded-lg py-2 px-9 bg-black/40 m-4 delay-100"
+      >
+        <kbd class="block">L</kbd>
+        <span class="block text-sm text-yellow uppercase tracking-widest"
+          >tink</span
+        >
+      </div>
+    </div>
+
+    <audio data-key="65" src="sounds/clap.wav"></audio>
+    <audio data-key="83" src="sounds/hihat.wav"></audio>
+    <audio data-key="68" src="sounds/kick.wav"></audio>
+    <audio data-key="70" src="sounds/openhat.wav"></audio>
+    <audio data-key="71" src="sounds/boom.wav"></audio>
+    <audio data-key="72" src="sounds/ride.wav"></audio>
+    <audio data-key="74" src="sounds/snare.wav"></audio>
+    <audio data-key="75" src="sounds/tom.wav"></audio>
+    <audio data-key="76" src="sounds/tink.wav"></audio>
+
+    <script src="script.js"></script>
+  </body>
+</html>
